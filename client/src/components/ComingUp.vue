@@ -30,5 +30,34 @@
 </template>
 
 <style lang="scss" scoped>
+  ol > li {
+      display: flex;
+      margin-bottom: 20px;
+    }
+  .song-details {
+    flex: 1;
 
+    > span {
+      display: block;
+    }
+  }
+  .likes {
+    width: 140px;
+
+    > button {
+      background: none;
+      height: 40px;
+      width: 40px;
+
+      &.likes_add-dislike {
+        color: red;
+      }
+      &.likes_add-like {
+        color: green;
+      }
+    }
+    .likes_total {
+      margin: 0 15px;
+    }
+  }
 </style>
