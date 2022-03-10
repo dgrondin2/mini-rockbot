@@ -1,5 +1,5 @@
 <script setup>
-  import { reactive, onMounted, onUnmounted } from 'vue';
+  import { reactive, onMounted } from 'vue';
   import ComingUp from './ComingUp.vue';
   import nowPlayingData from '../../mock-now-playing.js';
 

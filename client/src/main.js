@@ -1,16 +1,14 @@
 import { createApp, h } from 'vue'
 import { createRouter, createWebHashHistory } from 'vue-router'
 import App from './App.vue'
-import NowPlaying from './components/NowPlaying.vue'
-import Request from './components/Request.vue'
+import NowPlayingPage from './components/NowPlayingPage.vue'
+import RequestPage from './components/RequestPage.vue'
 
 // Define some routes
 const routes = [
-  { path: '/', component: NowPlaying },
-  { path: '/request', component: Request },
+  { path: '/', component: NowPlayingPage },
+  { path: '/request', component: RequestPage },
 ]
-
-console.log(import.meta.env);
 
 // Create the router instance and pass the `routes` option
 // You can pass in additional options here, but let's

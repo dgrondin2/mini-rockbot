@@ -1,7 +1,9 @@
 <script setup>
+  /* eslint-disable */
   defineProps({
     songs: Array
   });
+  /* eslint-enable */
   function like(song) {
     song.likes++;
   }
